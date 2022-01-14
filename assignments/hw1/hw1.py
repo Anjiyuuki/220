@@ -2,10 +2,11 @@
 Name: Angie-Bui
 Homework1.py
 
-Problem: <Brief, one or two sentence description of the problem that this program solves, in your own words.>
+Problem: The program solves simple conversion such as area and volume of a rectangle. Finds player
+shooting percentage based on amount of shot and how many shot made it in. Total coffee price based
+on lbs purchased and kilometer travelled converted into miles.
 
 Certification of Authenticity:
-<include one of the following>
 I certify that this assignment is entirely my own work.
 """
 
@@ -29,8 +30,6 @@ def shooting_percentage():
     madeshot = eval(input("Enter how many shots the player made:"))
     percent = madeshot / totalshot * 100
     print("Shooting Percentage:", percent,"%")
-
-
 
 
 def coffee():
