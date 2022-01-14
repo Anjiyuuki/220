@@ -1,6 +1,5 @@
 """
-Notes:
-eval means exact number
+Notes: eval means exact number
 def variable():
     variable= eval(input(prompt))
 """
