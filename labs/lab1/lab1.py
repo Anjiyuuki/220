@@ -1,3 +1,13 @@
+"""
+Name: Angie-Bui
+Lab 1
+
+Problem: The program calculates users monthly interest.
+
+Certification of Authenticity:
+I certify that this assignment is entirely my own work.
+"""
+
 def monthly_interest():
     net_balance= eval(input("What is your previous balance?"))
     days_billing_cycle= eval(input("What is the number of days in billing cycle for the month?"))
