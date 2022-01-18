@@ -2,7 +2,8 @@
 Name: Angie-Bui
 Lab 1
 
-Problem: The program calculates users monthly interest.
+Problem: The problem is trying to figure out how much users pay monthly on interest charge on a credit card.
+The program output monthly interest cost.
 
 Certification of Authenticity:
 I certify that this assignment is entirely my own work.
