@@ -39,8 +39,14 @@ def coffee():
 def kilometers_to_miles():
     travelled = eval(input("How many kilometers did you travel?"))
     convert = travelled * 0.6213
-    miles = float(int(convert))
+    miles = round(convert, 2)
     print("That's",miles,"miles!")
 
 if __name__ == '__main__':
     pass
+
+calc_rec_area()
+calc_volume()
+shooting_percentage()
+coffee()
+kilometers_to_miles()
