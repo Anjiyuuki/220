@@ -43,10 +43,8 @@ def kilometers_to_miles():
     print("That's",miles,"miles!")
 
 if __name__ == '__main__':
-    pass
-
-calc_rec_area()
-calc_volume()
-shooting_percentage()
-coffee()
-kilometers_to_miles()
+    calc_rec_area()
+    calc_volume()
+    shooting_percentage()
+    coffee()
+    kilometers_to_miles()
