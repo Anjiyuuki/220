@@ -1,0 +1,45 @@
+Chapter 3 Notes
+
+Strings
+Number
+3   Int/ Integer -/+ whole     “ // “ integer division operator
+3.0  float/floating point -/+ decimal   “ / “ float division operator
+“% “  remainder mod “modular arithmetic” modded by 2, 0= even , 1= odd
+abs() absolute value math operator
+math.sqrt(number in here)  square root
+math.pow( something, raised to something)
+
+stuff in parenthesis are called parameters or arguments
+
+range( start, stop, step )
+1 parameter mean where it start
+2 parameter start, stop
+3 start, stop, go up/down by number
+
+Accumulator Pattern
+sum     i
+0       0
+1       1
+3       2
+6       3
+10      4
+
+factorial
+6! = 6*5*4*3*2*1
+
+1. Analysis  - compute factorial of an input
+2. Specifiction -
+input -> the value to factorial
+output -> result after
+3. Design - loop, range, multiply
+4. Implementation -
+Get "n"  input
+initialize our accumulator to 1
+loop i
+    multiply i * accumulator
+Print result
+
+5. Test
+6. Initiation
+
+
