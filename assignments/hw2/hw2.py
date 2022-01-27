@@ -2,7 +2,9 @@
 Name: Angie Bui
 hw2.py
 
-Problem: <Brief, one or two sentence description of the problem that this program solves, in your own words.>
+Problem: This program solves sum of threes with user inputting upper bound, multiplication table,
+calculating area of a triangle with input of 3 sides, sum square for lower to upper range, and
+power input base and exponent.
 
 Certification of Authenticity:
 I certify that this assignment is entirely my own work.
@@ -25,8 +27,6 @@ def multiplication_table():
                 print(i*j, end="\t ")
         print()
 
-
-
 def triangle_area():
     side_a = eval(input("Enter side a length:"))
     side_b = eval(input("Enter side b length:"))
@@ -36,8 +36,6 @@ def triangle_area():
     x = s*(s - side_a)*(s - side_b) * (s - side_c)
     area = math.sqrt(x)
     print("Area is:", area)
-
-
 
 def sum_squares():
     sum= 0
