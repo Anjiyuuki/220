@@ -1,0 +1,15 @@
+
+
+import graphics for library of classes
+import math for library of math
+
+point class that is in the graphic library
+you create object using constructor
+method is a function associated with the class
+.move will move the point
+
+Graphwin object
+-title
+-width
+-height
+
