@@ -62,3 +62,4 @@ if __name__ == '__main__':
     sum_squares()
     power()
 
+

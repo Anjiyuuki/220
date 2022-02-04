@@ -13,3 +13,16 @@ Graphwin object
 -width
 -height
 
+variables are pointers to memories
+"variable = variable" will point to the same memories ... you will have to clone
+Ints, Floats, and String, New memories are created
+
+Events :
+- Mouse CLicks
+- Key Strokes
+
+user_input = Entry(Point(5,5)50)
+user_input.setText("Enter your name here")
+user_input.draw(win)
+win.getMouse()
+name = user_input.getText()
