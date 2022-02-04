@@ -57,5 +57,3 @@ if __name__ == '__main__':
     newton()
     sequence()
     pi()
-
-   
