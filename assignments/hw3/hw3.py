@@ -9,7 +9,6 @@ Certification of Authenticity:
 I certify that this assignment is entirely my own work.
 """
 
-
 def average():
     grade_acc = 0
     number_grade = eval(input("How many grade will you enter?"))
@@ -35,7 +34,6 @@ def newton():
         improv = answer
     print("The square root is approximately:", answer)
 
-
 def sequence():
     tms = eval(input("Enter how many terms you like?"))
     for i in range(1, tms+1):
@@ -52,7 +50,6 @@ def pi():
         total *= top/bottom
     answer = total * 2
     print(answer)
-
 
 if __name__ == '__main__':
     average()
