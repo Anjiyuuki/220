@@ -29,10 +29,11 @@ def newton():
     num_to_sq = int(input("What number do you want to square root?"))
     approx = int(input("How many times should we improve the approximation?"))
     improv = num_to_sq
+    global ans
     for i in range(approx):
-        answer = (improv+(num_to_sq/improv))/2
-        improv = answer
-    print("The square root is approximately:", answer)
+        ans = (improv+(num_to_sq/improv))/2
+        improv = ans
+    print("The square root is approximately:", ans)
 
 def sequence():
     tms = eval(input("Enter how many terms you like?"))
