@@ -10,7 +10,7 @@ I certify that this assignment is entirely my own work.
 I certify that this assignment is my own work, but I discussed it with: <Name(s)>
 """
 
-from graphics import *
+from graphics import GraphWin, Point, Text, Circle, Rectangle
 
 
 def squares():
@@ -20,7 +20,7 @@ def squares():
     win = GraphWin("Clicks", width, height)
 
     # number of times user can move circle
-    num_clicks = 5
+    num_clicks = 6
 
     # create a space to instruct user
     inst_pt = Point(width / 2, height - 10)
@@ -61,4 +61,4 @@ def pi2():
 
 
 if __name__ == '__main__':
-    pass
+    squares()
