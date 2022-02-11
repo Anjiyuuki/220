@@ -4,7 +4,7 @@ hw4.py
 
 Problem: The first 3 programs utilizes the graphics library to
 create a window and different objects. The last program approximate
-the value of pie by summing the term of the series given.
+the value of pi by summing the term of the series given.
 
 Certification of Authenticity:
 I certify that this assignment is entirely my own work.
