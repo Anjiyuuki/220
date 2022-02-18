@@ -92,3 +92,4 @@ if __name__ == '__main__':
     thirds()
     word_average()
     pig_latin()
+ 
