@@ -28,9 +28,8 @@ def company_name():
 def initials():
     a = []
     amount = eval(input("How many students are in the class?"))
-    #print("What is the name of student", i + 1, "?")
     for i in range(amount):
-        name = input(":")
+        name = input("What is the name of student" + str(i + 1) + "?")
         a.append(name)
         split = name.split()
         print(split[0][0] + split[1][0])
@@ -42,7 +41,6 @@ def names():
     string = ' '
     name = (input("Enter a list of names:"))
     l = name.split()
-    # 0 ,   len(l) count number
     for x in range(0, len(l)):
         first = l[x][0]
         mylist.append(first)
