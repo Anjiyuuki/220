@@ -10,6 +10,7 @@ I certify that this assignment is entirely my own work.
 """
 import math
 
+
 def cash_converter():
     integer_value = float(input("Enter an integer:"))
     answer = "That is $ {:.2f}".format(integer_value)
@@ -32,9 +33,11 @@ def sphere_area(radius):
     area = 4 * math.pi * (radius**2)
     return area
 
+
 def sphere_volume(radius):
     vol = (4/3)*math.pi * (radius**3)
     return vol
+
 
 def sum_n(number):
     num = (number*(number+1))/2
