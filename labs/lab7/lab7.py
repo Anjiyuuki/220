@@ -2,7 +2,7 @@
 Name: Angie Bui                                                                     
 Lab7.py                                                                             
                                                                                     
-Problem: This program utilizes the graphics package and deals with                  
+Problem: This program utilizes the graphics package also deals with                  
 decision statements (True/ False). The ball starts from a random                    
 location and color and bounce back when hitting the sides or each other.            
                                                                                     
