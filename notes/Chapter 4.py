@@ -49,7 +49,7 @@ right_eye.draw(win)
 label.draw(win)
 
 for i in range(1):
-    click_point= win.getMouse()
+    click_point = win.getMouse()
     click_point.draw(win)
 win.getMouse()
 

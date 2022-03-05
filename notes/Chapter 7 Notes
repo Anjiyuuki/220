@@ -1,0 +1,67 @@
+Control Structure- altering the linear flow of the program
+    - For Loop
+    - Functions
+    - Decision Structure
+        - Allow certain code to be executed depending on some condition
+
+if <conditions>:
+    <Body>
+
+The condition has to always be True or False, then does the body or doesn't do the body
+
+conditions - expressions - data type: bool/boolean (True/False)
+
+Relational oporators
+less than <
+less than or eq <=
+greater than >
+greater than or eq >=
+equal ==
+not equal !=
+--------------------------------------------
+put this on the module: print(___name___) ??
+then on new page: import that module
+
+if __name__ == '__main__':
+    runs function
+--------------------------------------------
+if
+else
+elif
+
+<boolien expression> and <boolien expression>
+True/false                True/false
+if both expression are true then the whole thing is true so the body will run
+
+--------------------------------------------
+max
+built in function
+max([1,2,3,4,5])
+tells you the max number in the list
+--------------------------------------------
+try:
+    <Body>
+except ValueError/SyntaxError/NameError:
+    <Body>
+
+except ValueError as e:
+    print(...,e)
+will tell you the error such as math domain error
+
+"try" basically doesnt work but if you "except" it is an exception and will jump there,
+handling errors for any exception
+
+except ValueError as e:
+    if str(e) == 'math domain error':
+        print('no real root')
+    else:
+        print('bad input: did you have three values')
+
+
+
+
+
+
+
+
+

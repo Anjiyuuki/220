@@ -49,7 +49,7 @@ def greeting_card():
         arrow.move(2,3)
         sleep(0.5)
 
-    close_msg = Text(Point(5, 1), "Click Anywhere to close.")
+    close_msg = Text(Point(5, 1), "Click anywhere to close.")
     close_msg.setSize(20)
     close_msg.draw(win)
 

@@ -1,0 +1,176 @@
+Strings - sequences of characters
+' '  or " "
+"Hello World"
+
+----------------------------------
+Lists - Sequences of any object
+[ ]
+[ 1, 2, 3, 4]
+[ "Hello", "World" ]
+[ "Hello", "World", 1, 2, "Hi" ]
+you can call each an element bc it is separated by a comma
+able to mix data types
+
+----------------------------------
+len() - returns an integer
+Ex.
+a = "hi"
+len(a) = 2
+but in a list it will count elements instead of each characters
+
+----------------------------------
+Concatenation  +
+"Hello" + "World" = "HelloWorld"
+Ex.
+a = "Hi"
+b = "ann"
+c = a + b
+print(c)
+Hiann
+you can also do the same with list
+
+"hi"* 3 =  hihihi
+[1] * 3 =  [ 1, 1, 1]
+----------------------------------
+for name in ["Angie", "Bob", "Yuuki"]
+    print(name)
+Angie
+Bob
+Yuuki
+
+a = "super"
+for letter in a:
+    print(letter)
+s
+u
+p
+e
+r
+looping through a string it will print each letters
+----------------------------------
+Indexing
+accessing individual elements within a sequence whether it is a string or list
+<string>[<int>]
+"hello"[1]
+0,1,2,3,4 start counting the letters from 0
+
+a = "Hello"
+third_char = a[2]
+print(third_char)
+l
+^ indexing a string will return a string, keep track of the data type
+
+<list>[<int>]
+days = ["mon", "tues", "Wed"]
+d = days[1]
+print(d)
+tues
+^ the type will be a string because it is accessing a string
+
+you can count backwards indexing by using negative, start from negative 1,  [-1]
+----------------------------------
+Slicing
+to get Sub String/ Sub List
+<string>[<start>:<end>:<step>]
+
+a = "hello,world!"
+b = a[0:5]
+print(b)
+hello
+w = a[7:] # it will go to the end, don't have to put an end number
+world!
+
+all = [:]
+
+"hello, world!"
+a = [12:6:-1]
+print(a)
+!dlrow
+when counting backward, it does not include the end, would have to count an extra number like negative 1
+
+indexing -returns the data type that is in the list
+slicing -a list always return a list
+----------------------------------
+
+2 ways of adding things to empty list
+a = []
+a.append("monday")  # ["monday"]
+a = a + ["Tuesday"] # ["monday", "tuesday"]
+----------------------------------
+a = "hello"
+a.upper()  # returns a new string and turns it all uppercase but have to write it in a new variable
+a.lower()
+a.capitalize() # First letter of the string will be capitalized
+a.title()  # word after every space will be capital
+a.count('string') # count how many there are
+a.find('string') #return the index value of where it found it #-1 means it is not found
+a.rfind('string') #starts from the right
+a.replace( 'string', 'replace with')  # have to store in new variable
+
+days = ['mon', 'tues', 'wed']
+#make into string instead of lists
+str(days)
+or
+'separate with ex space'.join(days)
+
+a.center(int) # so the sting would be center with bunch of space
+a.rjust(int) # the world will be at the right with bunch of space
+a.lstrip() # take the spaces out at the front
+a.rstrip() # takes spaces out at the back
+a.strip() # takes spaces out of the front and back
+a.split(' ') # split it up into separate elements # split on a space or you can type character and it will split there
+a.join
+----------------------------------
+Unicode- Encoding for letters
+ord() # tells us the unicode of the letter
+chr() # take the number and turn back into letter
+
+int() # return int
+float() # return float
+str() # return str
+eval() #
+
+----------------------------------
+"Hi my name is {}".format("Angie")
+"Hi my name is {0} and I am {1} years old".format("Angie", 7)
+
+Formating comes after the colon
+
+width
+"Hi my name is {0:10} and I am {1} years old".format("Angie", 7)
+# 'Hi my name is Angie      and I am 7 years old'
+"Hi my name is {0:10} and I am {1:10} years old".format("Angie", 7)
+# 'Hi my name is Angie      and I am          7 years old'
+
+Align
+^ in the middle
+"Hi my name is {0:^10} and I am {1:^10} years old".format("Angie", 7)
+'Hi my name is   Angie    and I am     7      years old'
+* # puts astric around them
+
+dollars = 12
+cents = 4
+
+"I have ${}.{}".format(dollars,cents)
+# "I have 12.4"
+"I have ${}.{:0>2}".format(dollars,cents)
+# "I have $12.04"
+
+{:.2f} # 2 decimal places
+input("User{}".format(i+1))
+
+----------------------------------
+open(<filename>,<mode>)
+"r" - read
+"w" - write
+
+open('data.txt', 'r')
+
+my_txt = my_file.read() #single string the entire file
+.readline() # return a string, one line, will include a new line character
+.readlines() # return a list ["....."/n , "....."/n]
+
+
+
+
+

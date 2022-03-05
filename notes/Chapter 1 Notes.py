@@ -15,4 +15,5 @@ my_string_variable= "hi" #Literal
 
 # end= "..." , doesn't create a new line
 # \t  , will tab
+# \n , will go to new line
 
