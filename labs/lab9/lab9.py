@@ -139,7 +139,7 @@ def play(board):
                 character = character + "o"
             user_input = input("{}'s, chose a position:".format(character))
             while not is_legal(board, user_input):
-                user_input = input("position is already filled chose a new position:")
+                user_input = input("position is already filled. Please choose a new position:")
             fill_spot(board, user_input, character)
             print_board(board)
             i = i + 1
