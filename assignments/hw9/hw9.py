@@ -195,5 +195,5 @@ def play_command_line(secret_word):
 
 if __name__ == '__main__':
     pass
-    # play_command_line(secret_word)
-    play_graphics('Hello')
+    play_command_line('hello')
+    play_graphics('hello')
