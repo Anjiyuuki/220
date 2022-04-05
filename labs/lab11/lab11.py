@@ -46,16 +46,13 @@ def three_door_game():
     # Win and Lose Lists
     win_list = []
     lose_list = []
-    win_rectangle_point_1 = Point(75, 50)
-    win_rectangle_point_2 = Point(150, 125)
-    win_box = Rectangle(win_rectangle_point_1, win_rectangle_point_2)
+  
+    win_box = Rectangle(Point(75, 50), Point(150, 125))
     win_box.draw(win)
     win_text = Text(Point(112, 40), 'Wins')
     win_text.draw(win)
 
-    loss_rectangle_point_1 = Point(150, 50)
-    loss_rectangle_point_2 = Point(225, 125)
-    loss_box = Rectangle(loss_rectangle_point_1, loss_rectangle_point_2)
+    loss_box = Rectangle(Point(150, 50), Point(225, 125))
     loss_box.draw(win)
     loss_text = Text(Point(187, 40), 'Losses')
     loss_text.draw(win)
