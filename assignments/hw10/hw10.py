@@ -7,6 +7,9 @@ boolean values.
 Certification of Authenticity:
 I certify that this assignment is entirely my own work.
 """
+from graphics import*
+from face import*
+
 
 def fibonacci(num):
     n1, n2 = 1, 1
@@ -78,4 +81,18 @@ def goldbach(num):
             idex_b = idex_b + 1
             prime_b = primes[idex_b]
     return [prime_a, prime_b]
-       
+
+
+def main():
+    win = GraphWin("Face", 700, 700)
+    center = Point(350, 350)
+    size = 300
+    my_face = Face(win, center, size)
+    # my_face.wink()
+    # my_face.shock()
+    my_face.smile()
+    win.getMouse()
+    win.close()
+
+main()
+  
