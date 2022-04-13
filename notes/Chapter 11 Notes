@@ -1,0 +1,6 @@
+In a Dictionary there is a "Key: value"
+uses {} instead of []
+
+d = {"jane":25, "Jun": 87, "Larry":101 }
+d["jim"]
+

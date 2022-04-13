@@ -2,3 +2,25 @@ for loop - called definite loop
 
 while loop - indefinite loop- keep running this body while it is true
 
+Truth Table
+And one false whole thing false
+Or one true whole thing true
+Not
+
+order of operation, not , and, or
+abs is built in function, dont need math module
+
+math - booleans
+x - and
++ - or
+o - false
+l - true
+
+
+while True:
+    <body>
+    if...
+        break
+break -- u can break out of a loop if it goes forever
+
+

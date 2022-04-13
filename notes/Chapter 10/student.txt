@@ -1,0 +1,3 @@
+Henry Adams, 127, 228
+Susan Cambell, 100, 400
+Denny Dibblebit, 18, 41.5

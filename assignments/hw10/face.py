@@ -1,3 +1,11 @@
+"""
+Name: Angie Bui
+face.py
+Problem: Face class for changing facial expression.
+Certification of Authenticity:
+I certify that this assignment is entirely my own work.
+"""
+
 from graphics import Circle, Line
 
 
@@ -24,10 +32,44 @@ class Face:
         self.mouth.draw(window)
 
     def smile(self):
-        pass
+        size = self.head.getRadius()
+        center = self.head.getCenter()
+        mouth_size = 0.8 * size
+        m_off = size / 2.0
+        p_3 = center.clone()
+        p_3.move(0, m_off * 1.8)
+        p_1 = center.clone()
+        p_1.move(-mouth_size/2, m_off)
+        p_2 = center.clone()
+        p_2.move(mouth_size/2, m_off)
+        left = Line(p_1, p_3)
+        right = Line(p_2, p_3)
+        right.draw(self.window)
+        left.draw(self.window)
+
 
     def shock(self):
-        pass
+        size = self.head.getRadius()
+        mouth_size = 0.20 * size
+        m_center = self.mouth.getCenter()
+        shock = Circle(m_center, mouth_size)
+        self.mouth.undraw()
+        self.mouth = shock
+        self.mouth.draw(self.window)
+
 
     def wink(self):
-        pass
+        center = self.head.getCenter()
+        size = self.head.getRadius()
+        eye = size / 3.0
+        p_1 = center.clone()
+        p_1.move(-eye / 1.6, -eye)
+        p_2 = center.clone()
+        p_2.move(eye/2, -eye)
+        eye_line = Line(p_1, p_2)
+        eye_line.move( -eye, 0)
+        self.left_eye.undraw()
+        self.left_eye = eye_line
+        eye_line.draw(self.window)
+        self.smile()
+

@@ -1,0 +1,2 @@
+Double underscore def __variable
+means that it is private and people can't call it
