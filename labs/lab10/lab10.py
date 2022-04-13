@@ -8,6 +8,7 @@ objects and functionality.
 Certification of Authenticity:
 I certify that this assignment is entirely my own work.
 """
+from graphics import*
 from button import*
 from door import*
 

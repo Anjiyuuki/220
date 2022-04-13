@@ -29,8 +29,3 @@ def is_in_linear(search_val, values):
         else:
             return False
     i = i + 1
-
-
-
-
-

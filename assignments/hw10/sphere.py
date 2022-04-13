@@ -1,8 +1,10 @@
 """
 Name: Angie Bui
 sphere.py
+
 Problem: creates a class for sphere to calculate radius, surface area,
-and volume.
+and volume. 
+
 Certification of Authenticity:
 I certify that this assignment is entirely my own work.
 """
@@ -22,3 +24,4 @@ class Sphere:
 
     def volume(self):
         return (4/3)*math.pi * self.radius ** 3
+  

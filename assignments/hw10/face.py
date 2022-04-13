@@ -1,7 +1,7 @@
 """
 Name: Angie Bui
 face.py
-Problem: Face class for changing facial expression.
+Problem: Face class for changing facial expression. 
 Certification of Authenticity:
 I certify that this assignment is entirely my own work.
 """
@@ -72,4 +72,4 @@ class Face:
         self.left_eye = eye_line
         eye_line.draw(self.window)
         self.smile()
-
+   

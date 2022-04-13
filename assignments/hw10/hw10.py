@@ -1,7 +1,9 @@
 """
 Name: Angie Bui
 hw10.py
-Problem:
+Problem: This program uses While loops to create
+different classes, objects, decisions/repition, and 
+boolean values. 
 Certification of Authenticity:
 I certify that this assignment is entirely my own work.
 """
@@ -80,6 +82,7 @@ def goldbach(num):
             prime_b = primes[idex_b]
     return [prime_a, prime_b]
 
+
 def main():
     win = GraphWin("Face", 700, 700)
     center = Point(350, 350)
@@ -92,3 +95,4 @@ def main():
     win.close()
 
 main()
+  

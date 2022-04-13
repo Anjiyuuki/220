@@ -175,27 +175,26 @@ def play_command_line(secret_word):
     guesses_remain = 6
     guessed_correct = make_hidden_secret(secret_word, guesses_lst)
     while guesses_remain >= 0 and not guessed_correct == secret_word:
-        print("already guessed:", guesses_lst)
-        print("guesses remaining:", guesses_remain)
+        print("Already guessed:", guesses_lst)
+        print("Guesses remaining:", guesses_remain)
         print(guessed_correct)
-        curr_guess = input("guess a letter: ")
+        curr_guess = input("Guess a letter: ")
         guesses_lst.append(curr_guess)
         if letter_in_secret_word(curr_guess, secret_word):
             guessed_correct = make_hidden_secret(secret_word, guesses_lst)
         else:
             guesses_remain -= 1
         if guessed_correct.split(" ") == list(secret_word):
-            print("winner!\n" + guessed_correct)
+            print("Winner!\n" + guessed_correct)
             break
         elif guesses_remain == 0:
-            print("sorry, you did not guess the word.")
-            print("the secret word was " + secret_word)
+            print("Sorry, you did not guess the word.")
+            print("The secret word was " + secret_word)
         else:
             print()
 
-
 if __name__ == '__main__':
     pass
-    # play_command_line('hello')
-    play_graphics('secret_word')
-
+    play_command_line('hello')
+    play_graphics('hello')
+ 

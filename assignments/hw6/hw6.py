@@ -2,7 +2,7 @@
 Name: Angie Bui
 hw6.py
 
-Problem: This programs deals with encoding and decoding ceasar cipher.
+Problem: This programs deals with encoding and decoding, ceasar cipher.
 
 Certification of Authenticity:
 I certify that this assignment is entirely my own work.
@@ -78,3 +78,4 @@ if __name__ == '__main__':
     # print(res)
     # encode_better()
     pass
+ 

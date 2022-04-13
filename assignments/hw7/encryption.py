@@ -22,3 +22,4 @@ def encode_better(msg_bet, key_better):
         answer.append(decode_better)
     answer_better = ''.join(answer)
     return answer_better
+   

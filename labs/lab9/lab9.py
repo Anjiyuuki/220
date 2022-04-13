@@ -2,7 +2,7 @@
 Name: Angie Bui
 lab9.py
 
-Problem: Tic-tak-toe Board game. utilizes different loops.
+Problem: Tic-tak-toe Board game. utilizes different loops. 
 
 Certification of Authenticity:
 I certify that this assignment is entirely my own work.
@@ -128,7 +128,7 @@ def play(board):
     print("Enter in an integer between 1 and 9 to choose position on board.")
     print("Type y if you wish to play and n if you do not want to play.")
     print_board(board)
-    input_user = input("Do you want to play (y or n)?").lower()
+    input_user = input("Do you want to play (y or n)?")
     while input_user[0] == "y":
         i = 0
         while i <= 9 and not game_over(board):

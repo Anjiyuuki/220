@@ -3,7 +3,7 @@ Name: Angie Bui
 lab5.py
 
 Problem: These program incorporate the graphics library to make a triangle,
-change shape color, and make a target. Also uses list and strings skills.
+change shape color, and make a target. Also uses list and strings skills. 
 
 Certification of Authenticity:
 I certify that this assignment is entirely my own work.
@@ -246,9 +246,9 @@ def target():
     win.close()
 
 
-#triange()
-#color_shape()
-#process_string()
-#process_list()
-#another_series()
-#target()
+triange()
+color_shape()
+process_string()
+process_list()
+another_series()
+target()

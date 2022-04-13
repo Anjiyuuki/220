@@ -14,7 +14,7 @@ class Door:
     def __init__(self, shape, label):
         self.shape = shape
         self.text = Text(self.shape.getCenter(), label)
-        self.secret = False
+        self.secret = True
 
     def get_label(self):
         return self.text.getText()
