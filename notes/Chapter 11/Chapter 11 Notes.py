@@ -93,8 +93,17 @@ def main():
 
 main()
 
-
 # if you're trying to add two list together don't just append [the list] because it will
 # put it into a sub list, you acc to do acc = acc + [1,2,3]
 # tuple - are lists that aren't mutiable (doesn't change)
 
+
+def more_dict_example():
+    families = {'jon': ['bob', 'ki', 'so'], 'angie': ['kat', 't', 'v']}
+    # families['jon'] = ['bob', 'ki', 'so']
+    # families['angie'] = ['kat', 't', 'v']
+    for family in families:
+        print(family, end='\n\t')
+        for name in families[family]:
+            print(name, end=' ')
+        print()

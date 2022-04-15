@@ -70,7 +70,7 @@ def decode_s():
 
 
 def print_poem():
-    my_poem = open('poem.txt','r')
+    my_poem = open('poem.txt', 'r')
     poem_txt = my_poem.read()
     print(poem_txt)
     my_poem.close()
@@ -78,7 +78,7 @@ def print_poem():
 
 
 def print_file_lines():
-    my_poem = open('poem.txt','r')
+    my_poem = open('poem.txt', 'r')
     for i in range(5):
         line = my_poem.readline()
         print(line, end=' ')
@@ -87,7 +87,7 @@ def print_file_lines():
 #print_file_lines()
 
 def print_file_list():
-    my_poem = open('poem.txt','r')
+    my_poem = open('poem.txt', 'r')
     # or you can do for line in my_poem() same results will happen
     for line in my_poem.readlines():
         print(line[:-1]) #takes out the default new lines character
