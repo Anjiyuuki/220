@@ -14,9 +14,8 @@ def find_and_remove_first(my_list, val):
     i = 0
     while i < len(my_list):
         if my_list[i] == val:
-            my_list.insert(i, 'Olivia')
+            my_list.insert(i, 'Angie')
             my_list.pop(i + 1)
-
     i += 1
 
 
