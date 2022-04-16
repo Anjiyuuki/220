@@ -1,3 +1,13 @@
+"""
+Name: Angie Bui
+sales_person.py
+Problem: Creates a sales person class with different
+functions to be used in Sale Force.
+Certification of Authenticity:
+I certify that this assignment is entirely my own work.
+"""
+
+
 class SalesPerson:
     def __init__(self, employee_id, name):
         self.employee_id = employee_id
@@ -16,25 +26,24 @@ class SalesPerson:
     def enter_sale(self, sale):
         self.sales.append(sale)
 
-    def total_sale(self):
-        sales_total = 0.0
-        for each_sale in range(len(self.sales)):
-            sales_total = sales_total + float(self.sales[each_sale])
-        return sales_total
+    def total_sales(self):
+        add = 0
+        for sale in self.sales:
+            add += sale
+        return add
 
     def get_sales(self):
         return self.sales
 
     def met_quota(self, quota):
-        tot_sales = self.total_sale()
-        fquota = float(quota)
-        if tot_sales >= fquota:
+        if self.total_sales() == quota or self.total_sales() > quota:
             return True
-        return False
+        else:
+            return False
 
     def compare_to(self, other):
-        tot_sales = self.total_sale()
-        other_tot = other.total_sale()
+        tot_sales = self.total_sales()
+        other_tot = other.total_sales()
         if other_tot > tot_sales:
             return -1
         if other_tot < tot_sales:
@@ -42,8 +51,6 @@ class SalesPerson:
         return 0
 
     def __str__(self):
-        tot_sales = self.total_sale()
-        employee_id_chr = str(self.employee_id)
-        str_out = employee_id_chr + '-' + self.name + ':' + str(tot_sales)
-        return str_out
+        return "{0}-{1}: {2}".format(self.employee_id, self.name, self.total_sales())
+ 
 
