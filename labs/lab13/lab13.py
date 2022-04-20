@@ -2,7 +2,8 @@
 Name: Angie Bui
 lab13.py
 
-Problem: Option 1 Capstone, trade alert
+Problem: Option 1 Capstone, read data in file and give 
+trade alert.
 
 Certification of Authenticity:
 I certify that this assignment is entirely my own work.
