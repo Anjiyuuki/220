@@ -1,0 +1,20 @@
+Learning objectives
+Develop a Python program that uses the graphics package.
+Practice decision statements
+Assignment
+In an effort to meet the public’s concerns regarding safety, Joyride, an amusement park ride manufacturer, is considering creating a new type of bumper car. This ride will have two cars on the track and will allow a computer to control the movement of the cars, guaranteeing that the cars alter direction upon collision. Before production begins, financial backing and management support of the idea must be obtained. As the lead programmer for Joyride, you have been asked to create a graphical simulation of the system to be presented to the board. 
+
+In your simulation, you have decided to represent bumper cars as small circles in a window. Write a program that creates two circles of different colors and chooses initial random directions for them to move. If either circle hits a wall, that circle should move away from the wall (in the opposite direction of the wall). If the circles collide, both circles change to the opposite direction.
+
+To generate a random number, put from random import randint at the top of the program. Then, for example, a call to the function randint(start, end) generates a pseudo-random number in the range [start.. end], i.e., including both start and end. Start can be a negative integer.
+
+Because the initial movement is random, it is possible that the circles will never collide. It is also possible for the circles to get “stuck” in a repeating pattern. Both situations are okay and need not be prevented.
+
+A sample execution will be shown during lecture.
+
+Make yours a modular solution. Implement the following methods: 
+get_random(int move_amount) -> int - returns a random integer number in the range [–move_amount, +move_amount]
+did_collide(Circle ball, Circle ball2) -> boolean - returns boolean based on the collision of the two balls
+hit_vertical(Circle ball, Graphwin win) -> boolean - returns True if ball hits a vertical wall, False otherwise
+hit_horizontal(Circle ball, Graphwin win) -> boolean - returns True if ball hits a horizontal wall, False otherwise
+get_random_color() -> color_rgb - returns a random color.
