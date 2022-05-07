@@ -1,0 +1,29 @@
+Learning objectives
+Develop a Python program that uses numeric data from a text file.
+Assignment
+A professor at Hardtack University has an unusual method of grading. The students may or may not all take the same number of tests. The individual tests are weighted, and these weights are used to compute the student's average. Important: the weights for all of the tests for a given student must add to 100. Assuming that w1 ... wn are the weights, and g1 ... gn are the grades, the average is computed by the formula:
+
+((w1 * g1) + (w2 * g2) + ... + (wn * gn)) / 100
+
+The names of the students and their grades, with weights, are stored in a text file in the format firstName lastName: w1 g1 w2 g2 ... wn gn
+
+Write the function weighted_average(in_file_name, out_file_name). This function accepts parameters that are strings relating to the input file’s name and the output file’s name.   This function should compute and output to the output file each student's average, using the formula given above. It should also output the overall average. Format all averages to one decimal place. If the weights for any student do not add up to 100 then the output for that student should be an error message stating that the weight is too high/too low. In such cases, the average is not added to the class total.
+
+Add a main() function and put code in there to test your function.  The name of the input file will be “grades.txt”. The name of the output file should be  “avg.txt”.   Write your program so that main() will execute automatically when the file is run, but not when it is imported.
+
+For example, if the text file contains:
+
+Billy Bother: 20 89 30 94 50 82
+Oh No: 30 52 60 75
+Hermione Heffalump: 40 93 60 97
+Too Bad: 90 95 10 87 20 94
+Kurt The Kidd: 20 88 30 82 40 76 10 99
+
+Then the output should look like this:
+
+Billy Bother's average: 87.0
+Oh No’s average: Error: The weights are less than 100.
+Hermione Heffalump's average: 95.4
+Too Bad’s average: Error: The weights are more than 100.
+Kurt The Kidd's average: 82.5
+Class average: 88.3
