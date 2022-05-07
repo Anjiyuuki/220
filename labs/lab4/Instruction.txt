@@ -1,0 +1,13 @@
+Learning objectives
+Develop a Python program that uses the author's graphics package.
+
+Assignment
+Write a program that displays a heart. Use the author's graphics packages, graphics.py. It is left up to you what the details of the finished product should look like.
+
+To make the program more fun, there should be an arrow that shoots through your heart. Again it is up to you to decide what this should look like. Use a loop to make the arrow move.  
+
+The loop that makes the movement may go too fast. To slow it down, use the sleep() function from the time library that is a part of Python.  You will need to import the library into your code.  The line time.sleep(0.1) will make the program pause for one tenth of a second.
+
+When the heart first appears (before it gets shot), display a greeting like, "Happy Valentine’s Day!"
+
+After the animation has finished, have the message "Click anywhere to close" appear centered at the bottom of the window. Get a mouse click and then close the window.
