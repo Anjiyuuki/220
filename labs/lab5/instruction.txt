@@ -1,0 +1,61 @@
+Learning Objectives
+Use Python graphics.
+Use Python strings
+
+Assignment
+Triangle Information
+Write a function, triangle(), that displays information about a triangle drawn by the user.
+Input
+Three mouse clicks
+Output
+Draw the triangle.  Display the perimeter and area of the triangle in the graphics window.
+Formulas   
+To calculate line length:
+dx = x2 – x1
+dy = y2 – y1
+Use Euclidean distance to calculate:
+
+To calculate area:
+                     and 
+where a, b, and c are the lengths of the sides.
+Color Shape
+Write a function, color_shape(), that allows the user to color a shape based on red, green and blue values.  A shell has already been started which draws a circle into a window and adds the labels for the entry boxes.
+
+Add code to create three entry boxes that allow a user to type amounts of red, green and blue between 0-255.  When the user clicks on the window, the shape should change color to the color identified using the rgb amounts.  The author’s graphics package includes a function color_rgb(redAmt, greenAmt, blueAmt) that is discussed in the API documentation.  Write the code so it allows the user to enter 5 different color combinations before terminating. At the end, make sure the user can click to close the window.
+String processing
+Write a function process_string() that allows the user to input a string.  Write code to print the following:
+The first character in the string
+The last character in the string
+The characters inclusively in positions 2 – 5 of the string
+The concatenation of the first and last character of the string
+The first three characters in the string repeated 10 times
+Each character in the string printed one character per line
+The number of characters in the string
+List processing
+Write a function process_list().  Add the following lines to the function:
+
+pt = Point(5, 10)
+values = [5, “hi”, 2.5, “there”, pt, “7.2”]
+
+Using only the contents of the array “values”, write Python code to set a variable x to the following values, and print(x) after each assignment:
+Make x the string “hithere”.
+Make x the sum of 5 and 2.5
+Make x the string “hihihihihi”
+Make x the list [2.5, “there”, pt]   	# pt should be the Point object created above
+Make x the list [2.5, “there”, 5]
+Make x the list [2.5, 5, 7.2]		# 7.2 should be a float
+Make x the sum of 5 + 2.5 + 7.2
+Make x the number of items in values
+Not another series
+Write a function, another_series(), that allows the user to tell the number of terms and then adds that number of terms together from the following series.  Display each term on the same line and then the final result on a new line.
+
+2 + 4 + 6 + 2 + 4 + 6 +….
+
+Example output for 10 terms:
+	2 4 6 2 4 6 2 4 6 2 
+	sum =  38
+
+Target
+An archery target consists of a central circle of yellow surrounded by concentric rings of red, blue, black and white.  Each ring has the same “width,” which is the same as the radius of the yellow circle. Write a function, target(), that draws such a target.  The target should appear in the center of the window. Adjust the size of the target so that it just fits in the window. Include an instruction to click to close the window.
+
+Hint: Objects drawn later will appear on top of objects drawn earlier.
